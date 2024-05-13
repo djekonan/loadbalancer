@@ -39,3 +39,7 @@ variable "cross_tenant_replication_enabled"{
  type=bool
  default=false
 }
+variable "environment"{
+ type=string
+ default="staging"
+}
