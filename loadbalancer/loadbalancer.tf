@@ -5,7 +5,7 @@ resource "azurerm_resource_group" "konanresourcegroup" {
 
 
 resource "azurerm_resource_group" "example" {
-  name     = "LoadBalancerRG"
+  name     = "LoadBalancerKonan"
   location = "West Europe"
 }
 
