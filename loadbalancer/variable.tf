@@ -10,3 +10,12 @@ variable "client_secret"{
 variable "tenant_id"{
   type=string
 }
+
+variable "myresourcegroupname" {
+  type = string
+  default = "regisresourcegroup"
+}
+variable "myresourcegrouplocation" {
+  type = string
+  default = "canadacentral"
+}
